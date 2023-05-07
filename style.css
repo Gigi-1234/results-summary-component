@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&display=swap');
+
+body {
+    font-family: 'Hanken Grotesk', 'sans sarif';
+    /* background-color: rgb(181, 181, 234); */
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    flex-direction: column;
+    background-position: center;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.result {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.45px;
+    text-align: center;
+    color: #CAC9FF;
+    margin: 24px 140px 24px 141px;
+}
+.component {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    border-radius: 0px 0px 32px 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.oval {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px / 100px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.up {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 72px;
+    color: #ffffff;
+}
+.down {
+    font-weight: 700;
+    font-size: 16px;
+    color: #83839b;
+}
+.parag {
+    text-align: center;
+    font-size: 16px;
+    color: #CAC9FF;
+    line-height: 20.85px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    max-width: 260px;
+}
+.great {
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.reaction {
+    margin-left: 16px;
+    margin-right: 124px;
+    font-weight: 500;
+    color: #FF5555;
+}
+.react {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+    margin-bottom: 16px;
+}
+.mem {
+    margin-left: 16px;
+    margin-right: 124px;
+    font-weight: 500;
+    color: #FFB21E;
+}
+img {
+    margin-left: 20px;
+}
+.memory {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+    margin-bottom: 16px;
+}
+.verb {
+    margin-left: 16px;
+    margin-right: 138px;
+    font-weight: 500;
+    color: #07ecb7;
+}
+.verbal {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+     margin-bottom: 16px;
+}
+.vis {
+    margin-left: 16px;
+    margin-right: 142px;
+    font-weight: 500;
+    color: #1125D6;
+}
+.visual {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+    margin-bottom: 16px;
+}
+h3 {
+    font-weight: 700;
+    color: #0e172c;
+}
+.s {
+    color: #737b92;
+}
+.sp {
+    color: #737b92;
+}
+.spa {
+    color: #737b92;
+}
+.spann {
+    color: #384363;
+}
+.box {
+    display: flex;
+    align-items: center;
+    width: 315px;
+    height: 56px;
+    border-radius: 12px;
+}
+.sum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.summary {
+    color: #303B59;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.45px;
+    margin: 24px 265px 24px 32px;
+}
+button {
+    width: 315px;
+    height: 56px;
+    border-radius: 100px;
+    border: none;
+    background-color: #303B59;
+    margin: 24px 30px 30px 30px;
+    cursor: pointer;
+}
+.cont {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.45px;
+}
+button:hover {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+@media screen and (min-width: 1440px) {
+       .main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-radius: 32px;
+        overflow: hidden;
+       }
+       body {
+        width: 736px;
+        background: #ECF2FF;
+        height: 100vh;
+        margin: 0 auto;
+       }
+      .component {
+          width: 368px;
+          height: 100%;
+      }
+      .sum {
+          width: 368px;
+      }
+      .result {
+         font-size: 24px;
+         margin: 0;
+      }
+      .oval {
+        width: 200px;
+        height: 200px;
+        margin-top: 35px;
+      }
+      .up {
+        font-size: 72px;
+      }
+      .down {
+        font-size: 18px;
+        margin-top: 4px;
+      }
+      .great {
+        font-size: 32px;
+      }
+      .parag {
+        font-size: 18px;
+        margin-top: 14px;
+      }
+      .summary {
+        font-size: 24px;
+        margin-left: 40px;
+      }
+      .box {
+        margin-right: 15px;
+      }
+      button {
+        margin-left: 15px;
+        width: 288px;
+        border-radius: 128px;
+      }
+      .reaction {
+        font-size: 18px;
+      }
+      h3 {
+        margin-left: -10px;
+      }
+      .mem {
+        font-size: 18px;
+      }
+      .verb {
+        font-size: 18px;
+      }
+      .vis {
+        font-size: 18px;
+      }
+      
+}
+    
+
+
+  
